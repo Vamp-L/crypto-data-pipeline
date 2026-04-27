@@ -57,11 +57,6 @@ src/
 
 ---
 
-## 🎯 Goal
-
-Membangun pemahaman end-to-end data pipeline sebagai langkah menuju Data Engineer.
-
-
 
 ## ▶️ How to Run
 
@@ -85,4 +80,6 @@ python src/bronze_ingestion.py
 python src/silver_cleaning.py
 python src/gold_analytics.py
 ```
+## 🎯 Goal
 
+Membangun pemahaman end-to-end data pipeline sebagai langkah menuju Data Engineer.
