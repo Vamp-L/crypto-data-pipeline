@@ -60,3 +60,29 @@ src/
 ## 🎯 Goal
 
 Membangun pemahaman end-to-end data pipeline sebagai langkah menuju Data Engineer.
+
+
+
+## ▶️ How to Run
+
+1. Clone repository
+
+```bash
+git clone https://github.com/Vamp-L/crypto-data-pipeline.git
+cd crypto-data-pipeline
+```
+
+2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Run pipeline
+
+```bash
+python src/bronze_ingestion.py
+python src/silver_cleaning.py
+python src/gold_analytics.py
+```
+
